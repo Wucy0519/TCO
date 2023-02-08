@@ -1,0 +1,7 @@
+imageio==2.18.0
+matplotlib==3.5.1
+numpy==1.22.3
+Pillow==9.0.1
+torch==1.7.1+cu110
+torchaudio==0.7.2
+torchvision==0.8.2+cu110
