@@ -74,13 +74,13 @@ path = '/XXX/XXX/DataSet'
 ```
 .
 └--- Dataset
-    |--- cifar100						#CIFAR100 Dataset		
+    |--- cifar100				#CIFAR100 Dataset		
     |	└--- ...		
-    |--- CUB							#CUB_200_2011 Dataset	
+    |--- CUB					#CUB_200_2011 Dataset	
     |	└--- ...	
-	|--- ImageNet-1k					#ImageNet-1K Dataset		
+	|--- ImageNet-1k			#ImageNet-1K Dataset		
     |	└--- ...		
-    └--- Vocdevkit						#VOC Dataset	
+    └--- Vocdevkit				#VOC Dataset	
     	|--- VOC2007
     	└--- ...		
 ```
@@ -106,12 +106,12 @@ Initialize the TCO:
 #main.py
 
 if tco_switch:
-    Tco_mode = Tco(net = Wcynet,					#You model
-                   test_loader = test_loader,		#Test set
+    Tco_mode = Tco(net = Wcynet,		#You model
+                   test_loader = test_loader,	#Test set
                    drop_p = p_drop,
                    s_l = s_l,
-                   gamma = gamma,					#scheduler's parameter
-                   steps = step_size,				#scheduler's parameter
+                   gamma = gamma,		#scheduler's parameter
+                   steps = step_size,		#scheduler's parameter
                    lr = base_lr,
                    weight_decay = weight_decay,
                    momentum=momentum,
