@@ -6,21 +6,21 @@ This project is implementation for: ***”Mix-supervised Learning via Targeted C
 
 ```
 .
-|--- main.py						#Train your model on this script
+|--- main.py					#Train your model on this script
 |--- requirements.txt				#Environment requirements for the code to run
 |--- utils					   
 |    |--- wcy_method.py				#The script of TCO method
 |    └--- weight_init.py			#Initialize linear layer parameters
 |--- model
-|    |--- model.py					#Calling the model
+|    |--- model.py				#Calling the model
 |    └--- TransFG.py				#Defining and Initializing VIT
 |--- dataset
 |    |--- dataset.py				#Calling the dataset
 |    |--- read_imagenet.py			#Processing the dataset: Imagenet-1K
-|    |--- cub.py					#Processing the dataset: CUB_200_2011
+|    |--- cub.py				#Processing the dataset: CUB_200_2011
 |    └--- VOC2007.py				#Processing the dataset: VOC2007
-|--- Save							#Save model parameters
-└--- pretrained						#The pretrained models are here
+|--- Save					#Save model parameters (Need to create)
+└--- pretrained					#The pretrained models are here (Need to create)
 ```
 
 ## Installation
