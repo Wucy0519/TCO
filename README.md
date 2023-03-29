@@ -1,6 +1,6 @@
 # Targeted confidence optimization (TCO)
 
-This project is implementation for: ***”Mix-supervised Learning via Targeted Confidence Optimization for Image Classification“***. In this work, inspired by human learning, we propose mix-supervised learning and give a learning paradigm to solve this challenge. Based on this paradigm, we design the targeted confidence optimization (TCO) to perform mix-supervised learning, which can effectively eliminate the feature scattering due to pseudo-label, meanwhile preserving the role of pseudo-labeling in promoting model convergence.
+This project is implementation for: ***”TCO: Targeted Confidence Optimization for Image Classification Based on Mixed Supervised Learning“***. In this work, inspired by human learning, we propose mixed supervised learning and give a learning paradigm to solve this challenge. Based on this paradigm, we design the targeted confidence optimization (TCO) to perform mixed supervised learning, which can effectively eliminate the feature scattering due to pseudo-label, meanwhile preserving the role of pseudo-labeling in promoting model convergence.
 
 ## Project Directory
 
